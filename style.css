@@ -1,0 +1,194 @@
+/* atoms */
+
+body{
+	background:#d9d9d9 url("images/penguin.jpg") fixed;
+	background-repeat:no-repeat;
+        background-size:100% 100%;
+}
+
+/* texts */
+
+h1{
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+h2, h3{
+font-family: "Times New Roman", Times, serif;
+}
+
+h1.top{ 
+font-size: 2.5em;
+}
+
+h2.goals{padding-left:10px;}
+
+
+
+a.top:link{
+text-decoration:none;
+}
+
+/* p */
+p,li{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size:17px;
+}
+
+p.bio{padding-bottom:50px;
+}
+
+/* article */
+
+
+
+
+/* divs */
+
+div.main{
+	border: 3px red;
+	border-radius:5px;
+
+}
+
+
+
+div.top {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1412:01 PM 10/17/2017px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom:solid 20px black;
+    border-radius:3px;
+    background-color:rgba(162, 189, 232, .4);
+    list-style-position: inside;
+    
+
+}
+div.bio{
+
+border-radius: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    background-color:rgba(239, 98, 215,.4);
+    position:inside;
+    
+}
+
+div.goals{
+    padding-top: 2px;
+    padding-right: 34px;
+    padding-bottom: 50px;
+    border: 3px solid #f0f8ff;
+    border-radius:5px;
+    height: 150px;
+    width: 250px;
+    margin:10px;
+    background-color:rgba(76, 226, 239,.5);
+    float:left
+    
+}
+
+
+div.hobbies{
+    padding:20px;
+    border: 2px groove black;
+    height:200px;
+    width:550px;
+    border-radius: 5px;
+    float:center;
+    overflow:auto;
+    background-color:rgba(216, 108, 124,.8);
+    margin: 10px;
+}
+
+div.images{
+
+	position: relative;
+	padding:15px;
+
+}
+
+/* lists */
+
+ul { 
+    display: block;
+    margin: 1em;
+    padding-left: 10px;
+}
+
+/* padding left, images on right */
+
+
+/* images */
+
+figure{
+	padding:15px;
+	float:right;
+	border: 4px dashed black;
+	border-radius:4px;
+
+}
+
+.images{
+    width:123px;height:123x;
+    margin:auto;
+}
+
+.alicia{
+    border-radius: 10px;
+    float:right;
+    width:304px;
+    height:508px;
+    padding:10px;
+    margin:30px;
+
+}
+
+.reading{
+    border-radius: 6px;
+    float:left;
+    width: 300px;
+    height:400px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+}
+
+.texas{
+        border-radius: 3px;
+    width: 150px;
+    height:154px;
+    float:right;
+    margin:50px;
+    
+}
+
+.lol{
+    width: 200px;
+    height:80px; 
+    
+}
+
+.romeo{
+    
+}
+
+
+
+/* address */
+
+address{
+    
+    float:left;
+}
+
+
+footer{
+    display: block;
+    height: 50px;
+    padding: 40px;
+}
